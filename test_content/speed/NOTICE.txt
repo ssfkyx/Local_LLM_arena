@@ -1,0 +1,26 @@
+WikiText-2 (raw) — data attribution
+===================================
+
+The file `wiki.test.raw` in this directory is the test split of the
+WikiText-2 raw dataset.
+
+Source:
+    Salesforce / wikitext
+    https://huggingface.co/datasets/Salesforce/wikitext
+    configuration: wikitext-2-raw-v1
+    download: https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/wikitext-2-raw-v1/wikitext-2-raw.zip
+
+License:
+    Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+    https://creativecommons.org/licenses/by-sa/3.0/
+
+Reference:
+    Stephen Merity, Caiming Xiong, James Bradbury, Richard Socher.
+    "Pointer Sentinel Mixture Models." arXiv:1609.07843, 2016.
+
+The dataset is derived from English Wikipedia. If you redistribute this file,
+keep this notice and the CC BY-SA 3.0 terms with it.
+
+Only `wiki.test.raw` is committed because it is the corpus used by
+`llama-perplexity` (see `arena/config.py`). The train/valid splits are not used
+by Local Arena and are intentionally ignored by `.gitignore`.

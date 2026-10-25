@@ -1,0 +1,52 @@
+{
+  "q1": "请记住这个代号：ZQ7X。请只回复：已记住",
+  "q2": "我刚才让你记住的代号是什么？如果你不知道，请只回复：不知道",
+  "a1": {
+    "wall": 0.06,
+    "content": "已记住",
+    "finish_reason": "stop",
+    "timings": {
+      "cache_n": 28,
+      "prompt_n": 1,
+      "prompt_ms": 20.383,
+      "prompt_per_token_ms": 20.383,
+      "prompt_per_second": 49.06049158612569,
+      "predicted_n": 3,
+      "predicted_ms": 38.727,
+      "predicted_per_token_ms": 19.3635,
+      "predicted_per_second": 51.643556175278235
+    }
+  },
+  "a2": {
+    "wall": 0.07,
+    "content": "不知道。",
+    "finish_reason": "stop",
+    "timings": {
+      "cache_n": 27,
+      "prompt_n": 1,
+      "prompt_ms": 20.148,
+      "prompt_per_token_ms": 20.148,
+      "prompt_per_second": 49.63271788763153,
+      "predicted_n": 3,
+      "predicted_ms": 38.944,
+      "predicted_per_token_ms": 19.472,
+      "predicted_per_second": 51.35579293344289
+    }
+  },
+  "a3": {
+    "wall": 0.07,
+    "content": "已记住",
+    "finish_reason": "stop",
+    "timings": {
+      "cache_n": 28,
+      "prompt_n": 1,
+      "prompt_ms": 19.405,
+      "prompt_per_token_ms": 19.405,
+      "prompt_per_second": 51.5331100231899,
+      "predicted_n": 3,
+      "predicted_ms": 39.418,
+      "predicted_per_token_ms": 19.709,
+      "predicted_per_second": 50.73824141255264
+    }
+  }
+}

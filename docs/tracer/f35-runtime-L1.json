@@ -1,0 +1,18 @@
+{
+  "wall": 3.14,
+  "finish_reason": "stop",
+  "content": "### L1｜最新有效状态\n\n1. 最新正式上线目标及其条件：4月28日，条件为安全审核通过和试点验收完成。材料编号：D10。\n2. 第一阶段已批准的功能范围：预约和消息通知。材料编号：D04。\n3. 数据导出和智能问答的状态：数据导出属于第二阶段，智能问答未获批准。材料编号：D16。\n4. 项目负责人：周宁。材料编号：D02。\n5. 当前预算上限：36万元。材料编号：D07。",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1640,
+    "prompt_ms": 503.432,
+    "prompt_per_token_ms": 0.3069707317073171,
+    "prompt_per_second": 3257.6395620461153,
+    "predicted_n": 128,
+    "predicted_ms": 2630.379,
+    "predicted_per_token_ms": 20.71164566929134,
+    "predicted_per_second": 48.28201563348856
+  },
+  "prompt_chars": 2438,
+  "qid": "L1"
+}

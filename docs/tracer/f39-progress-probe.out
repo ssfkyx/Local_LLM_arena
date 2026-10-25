@@ -1,0 +1,19 @@
+# F39 题内心跳探针（假 llama-server，心跳压到 0.5 s）——2026-10-19T09:18:58Z
+# 命令: python3 /tmp/arena_progress_probe.py  （连跑 3 次皆「全部通过」）
+PASS  A1 题开始帧保持旧口径: 首帧 = '卷 1/1 · 题 1/2 · 已用 0s'
+PASS  A2 心跳帧带出 token 统计: 前四帧 = ['卷 1/1 · 题 1/2 · 已用 0s', '卷 1/1 · 题 1/2 · 已用 1s · 本题 14 tok · 30.0 t/s · 日志 0s 前', '卷 1/1 · 题 1/2 · 已用 1s · 本题 28 tok · 30.0 t/s · 日志 0s 前', '卷 1/1 · 题 2/2 · 已用 1s']
+PASS  A3 token 数递增: 本题 tok 序列 = [14, 28]
+PASS  A4 没卡时“日志 Ns 前”很小: age 序列 = [0, 0]
+PASS  A5 两题都答完: answers=('/tmp/arena_probe/runs_a/2026-10-19T11-18-58_Probe-Model/answers/Probe-Model__paper_1.md',)
+PASS  B1 卡住时心跳继续刷新: 题 2 心跳帧 5 帧：['卷 1/1 · 题 2/2 · 已用 4s · 本题 14 tok · 30.0 t/s · 日志 2s 前', '卷 1/1 · 题 2/2 · 已用 4s · 本题 14 tok · 30.0 t/s · 日志 2s 前', '答卷覆盖 paper_1 2/2']
+PASS  B2 “已用”仍在走: 已用 = [2, 3, 3, 4, 4]
+PASS  B3 token 数冻结: 本题 tok = [14, 14, 14, 14, 14]
+PASS  B4 “日志 Ns 前”在增长: 日志 age = [0, 1, 1, 2, 2]
+PASS  C1 请求体仍是单条 user 消息 + 不限长 + 不缓存前缀: payload = {"cache_prompt": false, "max_tokens": -1, "messages": [{"content": "## 通用要求\n\n1. 只回答一个字。\n\n### K1｜正常题\n\n请回答：1+1=?\n\n---\n请现在开始作答，按各题要求输出。", "role": "user"}], "seed": 42, "temperature": 0.0}
+PASS  C2 每题一个独立请求: 请求数 = 2
+PASS  D1 取消仍然落成“用户取消”+ 精度到题: error='用户取消' paper_failures=[{'paper_name': 'paper_1', 'reason': 'K1: 用户取消'}] sheets=[]
+PASS  D1b 取消时心跳帧数停在取消点: 取消前后的帧 = ['卷 1/1 · 题 1/2 · 已用 0s', '卷 1/1 · 题 1/2 · 已用 1s · 本题 14 tok · 30.0 t/s · 日志 0s 前', '卷 1/1 · 题 1/2 · 已用 1s · 本题 28 tok · 30.0 t/s · 日志 0s 前', '用户取消']
+PASS  D2 取消后没有残留假 server: pgrep 无输出
+PASS  D3 无产物目录时心跳仍刷新且不带统计: 帧数 = 10，末帧 = '答卷覆盖 paper_1 2/2'
+
+探针结论: 全部通过

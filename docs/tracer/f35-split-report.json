@@ -1,0 +1,319 @@
+{
+  "paper": "paper_1",
+  "questions": 30,
+  "global_preamble_chars": 160,
+  "questions_with_shared_material": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+  ],
+  "questions_without_general_requirements": [],
+  "uncovered_nonempty_lines": [
+    "# LLM 能力测试卷 v1.0"
+  ],
+  "issues": [],
+  "entries": [
+    {
+      "qid": "K1",
+      "section": "A. 知识问答",
+      "block_chars": 92,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 276,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "K2",
+      "section": "A. 知识问答",
+      "block_chars": 117,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 301,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "K3",
+      "section": "A. 知识问答",
+      "block_chars": 92,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 276,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "K4",
+      "section": "A. 知识问答",
+      "block_chars": 113,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 297,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "K5",
+      "section": "A. 知识问答",
+      "block_chars": 127,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 311,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "R1",
+      "section": "B. 逻辑推理",
+      "block_chars": 106,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 290,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "R2",
+      "section": "B. 逻辑推理",
+      "block_chars": 121,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 305,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "R3",
+      "section": "B. 逻辑推理",
+      "block_chars": 207,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 391,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "R4",
+      "section": "B. 逻辑推理",
+      "block_chars": 127,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 311,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "R5",
+      "section": "B. 逻辑推理",
+      "block_chars": 99,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 283,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "C1",
+      "section": "C. 编程能力",
+      "block_chars": 281,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 465,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "C2",
+      "section": "C. 编程能力",
+      "block_chars": 218,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 402,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "C3",
+      "section": "C. 编程能力",
+      "block_chars": 435,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 619,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "C4",
+      "section": "C. 编程能力",
+      "block_chars": 331,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 515,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "C5",
+      "section": "C. 编程能力",
+      "block_chars": 373,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 557,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "W1",
+      "section": "D. 写作与总结",
+      "block_chars": 253,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 437,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "W2",
+      "section": "D. 写作与总结",
+      "block_chars": 204,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 388,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "W3",
+      "section": "D. 写作与总结",
+      "block_chars": 186,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 370,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "W4",
+      "section": "D. 写作与总结",
+      "block_chars": 165,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 349,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "W5",
+      "section": "D. 写作与总结",
+      "block_chars": 341,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 525,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "I1",
+      "section": "E. 指令遵循",
+      "block_chars": 166,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 350,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "I2",
+      "section": "E. 指令遵循",
+      "block_chars": 154,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 338,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "I3",
+      "section": "E. 指令遵循",
+      "block_chars": 154,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 338,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "I4",
+      "section": "E. 指令遵循",
+      "block_chars": 196,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 380,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "I5",
+      "section": "E. 指令遵循",
+      "block_chars": 211,
+      "section_preamble_chars": 0,
+      "global_chars": 160,
+      "prompt_chars": 395,
+      "has_shared_material": false,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "L1",
+      "section": "F. 长上下文阅读",
+      "block_chars": 116,
+      "section_preamble_chars": 2136,
+      "global_chars": 160,
+      "prompt_chars": 2438,
+      "has_shared_material": true,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "L2",
+      "section": "F. 长上下文阅读",
+      "block_chars": 103,
+      "section_preamble_chars": 2136,
+      "global_chars": 160,
+      "prompt_chars": 2425,
+      "has_shared_material": true,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "L3",
+      "section": "F. 长上下文阅读",
+      "block_chars": 127,
+      "section_preamble_chars": 2136,
+      "global_chars": 160,
+      "prompt_chars": 2449,
+      "has_shared_material": true,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "L4",
+      "section": "F. 长上下文阅读",
+      "block_chars": 214,
+      "section_preamble_chars": 2136,
+      "global_chars": 160,
+      "prompt_chars": 2536,
+      "has_shared_material": true,
+      "has_general_requirements": true
+    },
+    {
+      "qid": "L5",
+      "section": "F. 长上下文阅读",
+      "block_chars": 161,
+      "section_preamble_chars": 2136,
+      "global_chars": 160,
+      "prompt_chars": 2483,
+      "has_shared_material": true,
+      "has_general_requirements": true
+    }
+  ]
+}

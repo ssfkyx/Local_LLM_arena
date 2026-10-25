@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "### 第一次世界大战的导火索\n\n第一次世界大战的导火索是**1914年6月28日**在**萨拉热窝**发生的**斐迪南大公遇刺事件**。这一事件是由**塞尔维亚民族主义者加夫里洛·普林西普**（Gavrilo Princip）所为，他是一名塞尔维亚的青年革命者，受塞尔维亚民族主义情绪影响，试图通过刺杀奥匈帝国皇储斐迪南大公及其妻子，来推动南斯拉夫民族的独立。\n\n这一事件引发了奥匈帝国对塞尔维亚的战争威胁，最终导致奥匈帝国在1914年7月28日对塞尔维亚宣战，标志着第一次世界大战的爆发。\n\n---\n\n### 主要参战阵营\n\n第一次世界大战的主要参战阵营包括：\n\n1. **同盟国（Central Powers）**  \n   - **德意志帝国**（德国）  \n   - **奥匈帝国**（奥地利-匈牙利）  \n   - **奥斯曼帝国**（土耳其）  \n   - **保加利亚**（保加利亚）  \n\n2. **协约国（Entente Powers）**  \n   - **法国**  \n   - **英国**  \n   - **俄罗斯帝国**（后来退出战争）  \n   - **意大利**（最初属于同盟国，后加入协约国）  \n   - **塞尔维亚**  \n   - **罗马尼亚**  \n   - **希腊**  \n   - **保加利亚**（后来加入同盟国）  \n\n此外，还有一些国家在战争中扮演了重要角色，如**美国**（最初保持中立，后于1917年加入协约国一方）和**日本**（加入协约国一方）。\n\n---\n\n总结：  \n第一次世界大战的导火索是1914年6月28日的萨拉热窝事件，主要参战阵营为同盟国和协约国。"
+      }
+    }
+  ],
+  "created": 1792365467,
+  "model": "/home/cielo_1/models/Qwen3-MOE-2x4B-8B-Jan-Nano-Instruct-II.Q8_0.gguf",
+  "system_fingerprint": "b11574-8bb3cf0d2",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 424,
+    "prompt_tokens": 50,
+    "total_tokens": 474,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-hwQ0u4b14n0wgjznNQeJnAGlLh8aJ78U",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 50,
+    "prompt_ms": 31.622,
+    "prompt_per_token_ms": 0.63244,
+    "prompt_per_second": 1581.1776611220037,
+    "predicted_n": 424,
+    "predicted_ms": 8552.337,
+    "predicted_per_token_ms": 20.218290780141842,
+    "predicted_per_second": 49.460165098732666
+  }
+}

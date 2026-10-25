@@ -1,0 +1,42 @@
+{
+  "build": "llama-server 0.6.0-dev (build 11574, commit 8bb3cf0d2), GNU 15.2.0, Linux x86_64",
+  "model_used": "/home/cielo_1/models/Qwen3-MOE-2x4B-8B-Jan-Nano-Instruct-II.Q8_0.gguf",
+  "launch": "llama-server -m <model> -c 16384 -fitt 1024 --no-webui --host 127.0.0.1 --port 18080 -np 1",
+  "fitt_accepted": true,
+  "fitt_evidence": "进程加载成功、/health 200、后续 F30/F32 全部请求正常；但本机该模型可整卡装下，日志未出现卸载行，因此未产生'部分卸载'证据",
+  "fitt_partial_offload_verified": false,
+  "fitt_unverified_reason": "唯一超显存模型是 Qwen3-30B-A3B（18.5 GB），按用户要求完全不跑，因此'超显存模型在 server 上能否正确部分卸载'未验证",
+  "endpoints": {
+    "GET /health": 200,
+    "GET /props": 200,
+    "GET /slots": 200,
+    "GET /v1/models": 200,
+    "POST /tokenize": 200,
+    "POST /completion": 200,
+    "POST /v1/chat/completions": 200,
+    "GET /openapi.json": 404,
+    "GET /tokenize": 404,
+    "POST /slots?action=erase": 404,
+    "POST /slots/0?action=erase": 501
+  },
+  "slots_erase_note": "/slots/0?action=erase 返回 501 'This server does not support slots action. Start it with --slot-save-path'；本方案不需要它（客户端断开即取消，见 F31）",
+  "chat_template_present": true,
+  "chat_template_style": "<|im_start|>system ...（Qwen 风格）",
+  "default_port": 9931,
+  "n_slots_default": "auto（本次显式 -np 1）",
+  "context_shift_default": "disabled（--context-shift 默认关闭 → 生成到上下文满即停，与 ADR-0020 一致）",
+  "request_params_used": {
+    "messages": "[{role: user, content: <逐题 prompt>}]",
+    "max_tokens": -1,
+    "temperature": 0.0,
+    "seed": 42,
+    "cache_prompt": false
+  },
+  "sampling_defaults_inherited": {
+    "top_k": 40,
+    "top_p": 0.95,
+    "min_p": 0.05,
+    "note": "与 llama-cli 的默认值同为 llama.cpp 默认；本次未显式覆盖，与现有 EXAM 行为一致"
+  },
+  "vram_footprint_during_f32_mib": 10965
+}

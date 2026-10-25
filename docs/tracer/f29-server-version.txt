@@ -1,0 +1,3 @@
+# cmd: llama-server -m /home/cielo_1/models/Qwen3-MOE-2x4B-8B-Jan-Nano-Instruct-II.Q8_0.gguf -c 16384 -fitt 1024 --no-webui --host 127.0.0.1 --port 18080 -np 1
+version: 0.6.0-dev (build 11574, commit 8bb3cf0d2)
+built with GNU 15.2.0 for Linux x86_64

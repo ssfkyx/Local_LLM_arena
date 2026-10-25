@@ -1,0 +1,18 @@
+{
+  "wall": 1.46,
+  "finish_reason": "stop",
+  "content": "这句话不正确。相关性不等于因果性。即使样本量足够大，观察到两个变量相关也不能证明其中一个导致另一个。可能存在其他变量同时影响两个变量，或者相关性是巧合。例如，冰淇淋销量与溺水人数相关，但并非因为冰淇淋导致溺水，而是因为天气热同时影响两者。",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 178,
+    "prompt_ms": 49.007,
+    "prompt_per_token_ms": 0.2753202247191011,
+    "prompt_per_second": 3632.1341849123596,
+    "predicted_n": 69,
+    "predicted_ms": 1372.655,
+    "predicted_per_token_ms": 20.186102941176472,
+    "predicted_per_second": 49.539032021884594
+  },
+  "prompt_chars": 276,
+  "qid": "K1"
+}

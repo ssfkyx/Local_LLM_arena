@@ -1,0 +1,49 @@
+[1/30] K1 wall=4.425 chars=309 finish=stop err=None
+[2/30] K2 wall=8.575 chars=715 finish=stop err=None
+[3/30] K3 wall=0.967 chars=89 finish=stop err=None
+[4/30] K4 wall=13.621 chars=1523 finish=stop err=None
+[5/30] K5 wall=10.077 chars=772 finish=stop err=None
+[6/30] R1 wall=8.409 chars=566 finish=stop err=None
+[7/30] R2 wall=10.333 chars=766 finish=stop err=None
+[8/30] R3 wall=7.058 chars=437 finish=stop err=None
+[9/30] R4 wall=3.641 chars=259 finish=stop err=None
+[10/30] R5 wall=7.484 chars=513 finish=stop err=None
+[11/30] C1 wall=1.275 chars=177 finish=stop err=None
+[12/30] C2 wall=1.937 chars=283 finish=stop err=None
+[13/30] C3 wall=4.476 chars=655 finish=stop err=None
+[14/30] C4 wall=4.277 chars=543 finish=stop err=None
+[15/30] C5 wall=9.565 chars=1110 finish=stop err=None
+[16/30] W1 wall=0.951 chars=74 finish=stop err=None
+[17/30] W2 wall=6.744 chars=569 finish=stop err=None
+[18/30] W3 wall=0.654 chars=44 finish=stop err=None
+[19/30] W4 wall=1.205 chars=93 finish=stop err=None
+[20/30] W5 wall=5.516 chars=462 finish=stop err=None
+[21/30] I1 wall=0.635 chars=55 finish=stop err=None
+[22/30] I2 wall=0.33 chars=23 finish=stop err=None
+[23/30] I3 wall=0.55 chars=44 finish=stop err=None
+[24/30] I4 wall=0.149 chars=26 finish=stop err=None
+[25/30] I5 wall=1.608 chars=120 finish=stop err=None
+[26/30] L1 wall=1.653 chars=110 finish=stop err=None
+[27/30] L2 wall=6.321 chars=523 finish=stop err=None
+[28/30] L3 wall=3.627 chars=227 finish=stop err=None
+[29/30] L4 wall=2.886 chars=194 finish=stop err=None
+[30/30] L5 wall=3.222 chars=234 finish=stop err=None
+Traceback (most recent call last):
+  File "/tmp/arena_tracer/f32_stability.py", line 86, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/tmp/arena_tracer/f32_stability.py", line 80, in main
+    (OUT / "f32-paper2-30q.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+                                             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.14/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.14/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.14/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type set is not JSON serializable
+when serializing dict item 'finish_reasons'

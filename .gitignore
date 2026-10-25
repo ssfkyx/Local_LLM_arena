@@ -1,0 +1,43 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------------------
+# Local models (large, machine-specific; never commit)
+# ---------------------------------------------------------------------------
+models/
+*.gguf
+
+# ---------------------------------------------------------------------------
+# Generated run artifacts: raw streams, answers, JSONL history, PROTOCOL
+# Recreated by run_arena.py. A few sample answers are not needed to build/run.
+# ---------------------------------------------------------------------------
+runs/
+
+# ---------------------------------------------------------------------------
+# Corpus splits that are not used by the default workload.
+# test_content/speed/wiki.test.raw is kept (it is what perplexity actually reads).
+# Download instructions and attribution are in test_content/speed/NOTICE.txt.
+# ---------------------------------------------------------------------------
+test_content/speed/wiki.train.raw
+test_content/speed/wiki.valid.raw
+
+# Windows / macOS metadata
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / local overrides
+.env
+.vscode/
+.idea/
+*.swp

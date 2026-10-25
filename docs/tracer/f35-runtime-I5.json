@@ -1,0 +1,18 @@
+{
+  "wall": 1.55,
+  "finish_reason": "stop",
+  "content": "1. 周一是否开放？资料未提供。\n2. 周六几点关门？18:00。\n3. 每人最多借几本？资料未提供。\n4. 借期多少天？资料未提供。\n5. 是否提供停车位？资料未提供。",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 277,
+    "prompt_ms": 66.491,
+    "prompt_per_token_ms": 0.24003971119133574,
+    "prompt_per_second": 4165.977350318088,
+    "predicted_n": 67,
+    "predicted_ms": 1339.135,
+    "predicted_per_token_ms": 20.28992424242424,
+    "predicted_per_second": 49.28554626680656
+  },
+  "prompt_chars": 395,
+  "qid": "I5"
+}

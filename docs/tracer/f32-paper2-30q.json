@@ -1,0 +1,226 @@
+{
+  "paper": "paper_2",
+  "endpoint": "/v1/chat/completions",
+  "questions": 30,
+  "total_wall_s": 132.17,
+  "failures": 0,
+  "empty_answers": 0,
+  "finish_reasons": [
+    "stop"
+  ],
+  "wall_min_s": 0.149,
+  "wall_max_s": 13.621,
+  "wall_mean_s": 4.41,
+  "results": [
+    {
+      "qid": "K1",
+      "wall": 4.425,
+      "chars": 309,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "K2",
+      "wall": 8.575,
+      "chars": 715,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "K3",
+      "wall": 0.967,
+      "chars": 89,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "K4",
+      "wall": 13.621,
+      "chars": 1523,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "K5",
+      "wall": 10.077,
+      "chars": 772,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "R1",
+      "wall": 8.409,
+      "chars": 566,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "R2",
+      "wall": 10.333,
+      "chars": 766,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "R3",
+      "wall": 7.058,
+      "chars": 437,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "R4",
+      "wall": 3.641,
+      "chars": 259,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "R5",
+      "wall": 7.484,
+      "chars": 513,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "C1",
+      "wall": 1.275,
+      "chars": 177,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "C2",
+      "wall": 1.937,
+      "chars": 283,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "C3",
+      "wall": 4.476,
+      "chars": 655,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "C4",
+      "wall": 4.277,
+      "chars": 543,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "C5",
+      "wall": 9.565,
+      "chars": 1110,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "W1",
+      "wall": 0.951,
+      "chars": 74,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "W2",
+      "wall": 6.744,
+      "chars": 569,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "W3",
+      "wall": 0.654,
+      "chars": 44,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "W4",
+      "wall": 1.205,
+      "chars": 93,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "W5",
+      "wall": 5.516,
+      "chars": 462,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "I1",
+      "wall": 0.635,
+      "chars": 55,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "I2",
+      "wall": 0.33,
+      "chars": 23,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "I3",
+      "wall": 0.55,
+      "chars": 44,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "I4",
+      "wall": 0.149,
+      "chars": 26,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "I5",
+      "wall": 1.608,
+      "chars": 120,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "L1",
+      "wall": 1.653,
+      "chars": 110,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "L2",
+      "wall": 6.321,
+      "chars": 523,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "L3",
+      "wall": 3.627,
+      "chars": 227,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "L4",
+      "wall": 2.886,
+      "chars": 194,
+      "finish_reason": "stop",
+      "error": null
+    },
+    {
+      "qid": "L5",
+      "wall": 3.222,
+      "chars": 234,
+      "finish_reason": "stop",
+      "error": null
+    }
+  ]
+}
